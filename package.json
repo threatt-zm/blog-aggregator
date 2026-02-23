@@ -1,0 +1,33 @@
+{
+  "name": "blog-aggregator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threatt-zm/blog-aggregator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/threatt-zm/blog-aggregator/issues"
+  },
+  "homepage": "https://github.com/threatt-zm/blog-aggregator#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.13",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.9",
+    "get-tsconfig": "^4.10.1",
+    "resolve-pkg-maps": "^1.0.0",
+    "undici-types": "^7.10.0"
+  }
+}
