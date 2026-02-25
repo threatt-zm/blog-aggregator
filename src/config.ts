@@ -10,7 +10,7 @@ type Config = {
 export function setUser(name:string):void {
 
     const cfg:Config = readConfig(); 
-    cfg.currentUserName = "Zabian";
+    cfg.currentUserName = name;
     writeConfig(cfg);
 }
 
